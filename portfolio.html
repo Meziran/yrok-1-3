@@ -18,14 +18,16 @@
         <nav class="container nav">
             <a class="logo" href="./index.html"><span class="logo-web">Web</span><span
                     class="logo-studio">Studio</span></a>
-            <ul class="nav-list">
-                <li class="item"><a class="link-header current" href="./index.html">Студия</a>
-                </li>
-                <li class="item"><a class="link-header" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="item"><a class="link-header" href="#">Контакты</a>
-                </li>
-            </ul>
+            <nav>
+                <ul class="nav-list">
+                    <li class="item"><a class="link-header current" href="./index.html">Студия</a>
+                    </li>
+                    <li class="item"><a class="link-header" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="item"><a class="link-header" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
             <ul class="info-list">
                 <li class="item"><a class="connection-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
@@ -34,6 +36,7 @@
         </nav>
     </header>
     <main>
+        <!-- button-filter -->
         <section>
             <div class="container filter-nav">
                 <h1 hidden>фильтер нашых работ</h1>
@@ -44,70 +47,73 @@
                 <button class="button-filter">Маркетинг</button>
             </div>
         </section>
+
+        <!-- blok-work -->
         <section>
             <div class="container">
-                <h2 hidden>наши рабты</h2>
+                <h2 class="visually-hidden">наши рабты</h2>
                 <ul class="blok-work">
-                    <div class="work-card">
-                        <li><img src="./img/portfolio/1.jpg" alt="Веб-сайт Технокряк" height="294" width="370">
-                            <h3 class="title-work">Технокряк</h3>
-                            <p class="text team-text">Веб-сайт</p>
-                        </li>
-                    </div>
-                    <div class="work-card">
-                        <li><img src="./img/portfolio/2.jpg" alt="Дизайн Постера New Orlean vs Golden Star" height="294"
-                                width="370">
-                            <h3 class="title-work">Постер <span lang="en"> New Orlean vs Golden Star</span></h3>
-                            <p class="text-work">Дизайн</p>
-                        </li>
-                    </div>
-                    <div class="work-card">
-                        <li><img src="./img/portfolio/3.jpg" alt="Приложение Ресторан Seafood" height="294" width="370">
-                            <h3 class="title-work">Ресторан <span lang="en">Seafood</span></h3>
-                            <p class="text-work">Приложение</p>
-                        </li>
-                    </div>
-                    <div class="work-card">
-                        <li><img src="./img/portfolio/4.jpg" alt=" Маркетинг проекта Prime" height="294" width="370">
-                            <h3 class="title-work">Проект <span lang="en">Prime</span></h3>
-                            <p class="text-work">Маркетинг</p>
-                        </li>
-                    </div>
-                    <div class="work-card">
-                        <li><img src="./img/portfolio/5.jpg" alt="Приложение Проект Boxes" height="294" width="370">
-                            <h3 class="title-work">Проект <span lang="en">Boxes</span></h3>
-                            <p class="text-work">Приложение</p>
-                        </li>
-                    </div>
-                    <div class="work-card">
-                        <li><img src="./img/portfolio/6.jpg" alt="Веб-сайт Inspiration has no Borders" height="294"
-                                width="370">
-                            <h3 class="title-work" lang="en">Inspiration has no Borders</h3>
-                            <p class="text-work">Веб-сайт</p>
-                        </li>
-                    </div>
-                    <div class="work-card">
-                        <li><img src="./img/portfolio/7.jpg" alt="Дизайн издания Limited Edition" height="294"
-                                width="370">
-                            <h3 class="title-work">Издание <span lang="en">Limited Edition</span></h3>
-                            <p class="text-work">Дизайн</p>
-                        </li>
-                    </div>
-                    <div class="work-card">
-                        <li><img src="./img/portfolio/8.jpg" alt="Маркетинг Проекту LAB" height="294" width="370">
-                            <h3 class="title-work">Проект <span lang="en">LAB</span></h3>
-                            <p class="text-work">Маркетинг</p>
-                        </li>
-                    </div>
-                    <div class="work-card">
-                        <li><img src="./img/portfolio/9.jpg" alt="Приложение Growing Business" height="294" width="370">
-                            <h3 class="title-work" lang="en">Growing Business</h3>
-                            <p class="text-work">Приложение</p>
-                        </li>
-                    </div>
+                    <li class="work-kard">
+                        <img src="./img/portfolio/1.jpg" alt="Веб-сайт Технокряк" height="294" width="370">
+                        <h3 class="title-work">Технокряк</h3>
+                        <p class="text-work">Веб-сайт</p>
+                    </li>
+                    <li class="work-kard">
+                        <img src="./img/portfolio/2.jpg" alt="Дизайн Постера New Orlean vs Golden Star" height="294"
+                            width="370">
+                        <h3 class="title-work">Постер <span lang="en"> New Orlean vs Golden Star</span></h3>
+                        <p class="text-work">Дизайн</p>
+                    </li>
+                    <li class="work-kard">
+                        <img src="./img/portfolio/3.jpg" alt="Приложение Ресторан Seafood" height="294" width="370">
+                        <h3 class="title-work">Ресторан <span lang="en">Seafood</span></h3>
+                        <p class="text-work">Приложение</p>
+                    </li>
+                    <li class="work-kard">
+                        <img src="./img/portfolio/4.jpg" alt=" Маркетинг проекта Prime" height="294" width="370">
+                        <h3 class="title-work">Проект <span lang="en">Prime</span></h3>
+                        <p class="text-work">Маркетинг</p>
+                    </li>
+                    <li class="work-kard">
+                        <img src="./img/portfolio/5.jpg" alt=" Маркетинг проекта Prime" height="294" width="370">
+                        <h3 class="title-work">Проект <span lang="en">Boxes</span></h3>
+                        <p class="text-work">Приложение</p>
+                    </li>
+                    <li class="work-kard">
+                        <img src="./img/portfolio/6.jpg" alt="Веб-сайт Inspiration has no Borders" height="294"
+                            width="370">
+                        <h3 class="title-work" lang="en">Inspiration has no Borders</h3>
+                        <p class="text-work">Веб-сайт</p>
+                    </li>
+                    <li class="work-kard">
+                        <img src="./img/portfolio/7.jpg" alt="Дизайн издания Limited Edition" height="294" width="370">
+                        <h3 class="title-work">Издание <span lang="en">Limited Edition</span></h3>
+                        <p class="text-work">Дизайн</p>
+                    </li>
+                    <li class="work-kard">
+                        <img src="./img/portfolio/8.jpg" alt="Маркетинг Проекту LAB" height="294" width="370">
+                        <h3 class="title-work">Проект <span lang="en">LAB</span></h3>
+                        <p class="text-work">Маркетинг</p>
+                    </li>
+                    <li class="work-kard">
+                        <img src="./img/portfolio/9.jpg" alt="Приложение Growing Business" height="294" width="370">
+                        <h3 class="title-work" lang="en">Growing Business</h3>
+                        <p class="text-work">Приложение</p>
+                    </li>
                 </ul>
             </div>
         </section>
+        <!-- 
+ 
+
+                    <li class="work-card"><img src="./img/portfolio/9.jpg" alt="Приложение Growing Business"
+                            height="294" width="370">
+                        <h3 class="title-work" </h3>
+                        <p class="text-work"></p>
+                    </li>
+                </ul>
+            </div>
+        </section> -->
     </main>
     <!-- FOOTER -->
     <footer class="footer">
