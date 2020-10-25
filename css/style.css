@@ -353,29 +353,36 @@ address ul{
 
   .button-filter{
 
-    padding: 6px 22px;
     border-radius: 4px;
     border: 1px transparent;
-
+    background-color: var(--not-white);
+    
+}
+.btn-text{ 
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: 1px solid transparent;   
     text-align: center; 
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.61;
-    border: 1px solid transparent;
-    background-color: var(--not-white);
-    
+  
   }
   .filter-nav .button-filter+.button-filter{
       margin-left: 8px;
   }
 
 .button-filter:hover,
-.button-filter:focus{
+.button-filter:focus,
+
+.btn-text:hover,
+.btn-text:focus
+{
     background-color: var(--accent-color);
     color: var(--white);
 } 
-
+/* WORK */
 .blok-work{
     display: flex;
     flex-wrap: wrap;
