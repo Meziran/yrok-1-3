@@ -62,7 +62,7 @@ a {
     padding-right: 15px;
     
     /* border: 1px solid red; */
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
 }
 
 /* HEADER */
@@ -243,7 +243,7 @@ align-items: center;
 
 /*  What are we doing */
 .title-h2{
-    margin-top: 94px;
+    /* margin-top: 94px; */
     padding-bottom: 50px;
    
     text-align: center;
@@ -257,7 +257,11 @@ align-items: center;
 }
 
 /* TEAM */
- 
+.title-h2{
+    padding-top: 94px;
+
+} 
+
 .card-team{
     text-align: center;
     background: var(--white);
