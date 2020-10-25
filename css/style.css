@@ -346,7 +346,7 @@ address ul{
 .filter-nav{
       display: flex;
       justify-content: center;
-      margin-bottom: 50px;
+      padding-bottom: 50px;
       padding-top: 94px; 
      
   }
